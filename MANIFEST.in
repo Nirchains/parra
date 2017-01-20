@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include la_parra *.css
+recursive-include la_parra *.csv
+recursive-include la_parra *.html
+recursive-include la_parra *.ico
+recursive-include la_parra *.js
+recursive-include la_parra *.json
+recursive-include la_parra *.md
+recursive-include la_parra *.png
+recursive-include la_parra *.py
+recursive-include la_parra *.svg
+recursive-include la_parra *.txt
+recursive-exclude la_parra *.pyc
