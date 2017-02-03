@@ -1,0 +1,14 @@
+{
+    "js/chosen.jquery.min.js": [
+        "public/js/chosen.jquery.min.js"
+    ],
+    "css/style-desk.css": [
+        "public/css/style-desk.css"
+    ],
+    "css/style-front.css": [
+        "public/css/style-front.css"
+    ],
+    "css/chosen.css": [
+        "public/css/chosen.css"
+    ]
+}

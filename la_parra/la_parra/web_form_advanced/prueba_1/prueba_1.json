@@ -1,0 +1,80 @@
+{
+ "allow_comments": 0, 
+ "allow_delete": 0, 
+ "allow_edit": 0, 
+ "allow_incomplete": 0, 
+ "allow_multiple": 0, 
+ "allow_print": 0, 
+ "creation": "2017-02-01 18:34:03.949613", 
+ "doc_type": "Control de Carros", 
+ "docstatus": 0, 
+ "doctype": "Web Form Advanced", 
+ "idx": 0, 
+ "is_standard": 1, 
+ "login_required": 0, 
+ "max_attachment_size": 0, 
+ "modified": "2017-02-01 20:23:44.532477", 
+ "modified_by": "Administrator", 
+ "module": "La Parra", 
+ "name": "prueba-1", 
+ "owner": "Administrator", 
+ "published": 1, 
+ "route": "prueba-1", 
+ "show_sidebar": 0, 
+ "sidebar_items": [
+  {
+   "enabled": 1, 
+   "role": "", 
+   "route": "http://www.google.es", 
+   "title": "Google"
+  }
+ ], 
+ "success_url": "/prueba-1", 
+ "title": "Prueba 1", 
+ "web_form_fields_advanced": [
+  {
+   "fieldname": "obrador", 
+   "fieldtype": "Link", 
+   "hidden": 0, 
+   "label": "Obrador", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "Obradores", 
+   "read_only": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "sala_de_fermentacion", 
+   "fieldtype": "Link", 
+   "hidden": 0, 
+   "label": "Sala", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "Salas de Fermentacion", 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "carro", 
+   "fieldtype": "Int", 
+   "hidden": 0, 
+   "label": "Carro", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "N\u00ba Carro", 
+   "read_only": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "pan", 
+   "fieldtype": "Link", 
+   "hidden": 0, 
+   "label": "Pan", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "Panes", 
+   "read_only": 0, 
+   "reqd": 1
+  }
+ ]
+}

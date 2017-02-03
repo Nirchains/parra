@@ -1,0 +1,72 @@
+{% extends "templates/web-extend.html" %} {% block title %}{{ heading or "Entrada en fermentación"}}{% endblock %} {% block
+header %}
+<h1>{{ heading or "Entrada en fermentación"}}</h1>
+{% endblock %} {% block page_content %}
+<div class="ui-widget">
+    <label for="tags">Tags: </label>
+    <input id="tags">
+</div>
+{% endblock %} {% block script %}
+<script>
+    frappe.require("assets/frappe/js/lib/jquery/jquery-ui.min.js");
+    frappe.require("assets/frappe/js/lib/jquery/bootstrap_theme/jquery-ui.selected.css");
+    frappe.require("assets/frappe/js/chosen.jquery.min.js");
+    $(function () {
+        var availableTags = [
+            "ActionScript",
+            "AppleScript",
+            "Asp",
+            "BASIC",
+            "C",
+            "C++",
+            "Clojure",
+            "COBOL",
+            "ColdFusion",
+            "Erlang",
+            "Fortran",
+            "Groovy",
+            "Haskell",
+            "Java",
+            "JavaScript",
+            "Lisp",
+            "Perl",
+            "PHP",
+            "Python",
+            "Ruby",
+            "Scala",
+            "Scheme"
+        ];
+        $("#tags").autocomplete({
+            source: function (request, response) {
+                frappe.call({
+                    method: "frappe.client.get_list",
+                    args: {
+                        doctype: "Masas",
+                        filters: [
+                            ["name", "like", request.term + "%"]
+                        ],
+                        fields: ["name"]
+                    },
+                    callback: function (r) {
+                        if (r.message) {
+                            response($.map(r.message, function (d) { return d.name; }));
+                        }
+                    }
+                });
+            }
+        });
+    });
+/*
+        $.ajax({
+                    url: "/api/resource/Masas/",
+                    type: "GET",
+                    success: (function(data) {
+                        response(data.data);
+                    })
+                })
+*/
+
+
+
+</script>
+{% endblock %}

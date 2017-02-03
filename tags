@@ -5,11 +5,14 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 ControldeCarros	la_parra/la_parra/doctype/control_de_carros/control_de_carros.py	/^class ControldeCarros(Document):$/;"	kind:class	line:9
+Ingredientes	la_parra/la_parra/doctype/ingredientes/ingredientes.py	/^class Ingredientes(Document):$/;"	kind:class	line:9
+MasaIngredientes	la_parra/la_parra/doctype/masa_ingredientes/masa_ingredientes.py	/^class MasaIngredientes(Document):$/;"	kind:class	line:9
 Masas	la_parra/la_parra/doctype/masas/masas.py	/^class Masas(Document):$/;"	kind:class	line:9
 Obradores	la_parra/la_parra/doctype/obradores/obradores.py	/^class Obradores(Document):$/;"	kind:class	line:9
 Panes	la_parra/la_parra/doctype/panes/panes.py	/^class Panes(Document):$/;"	kind:class	line:9
 SalasdeFermentacion	la_parra/la_parra/doctype/salas_de_fermentacion/salas_de_fermentacion.py	/^class SalasdeFermentacion(Document):$/;"	kind:class	line:9
 TestControldeCarros	la_parra/la_parra/doctype/control_de_carros/test_control_de_carros.py	/^class TestControldeCarros(unittest.TestCase):$/;"	kind:class	line:11
+TestIngredientes	la_parra/la_parra/doctype/ingredientes/test_ingredientes.py	/^class TestIngredientes(unittest.TestCase):$/;"	kind:class	line:11
 TestMasas	la_parra/la_parra/doctype/masas/test_masas.py	/^class TestMasas(unittest.TestCase):$/;"	kind:class	line:11
 TestObradores	la_parra/la_parra/doctype/obradores/test_obradores.py	/^class TestObradores(unittest.TestCase):$/;"	kind:class	line:11
 TestPanes	la_parra/la_parra/doctype/panes/test_panes.py	/^class TestPanes(unittest.TestCase):$/;"	kind:class	line:11
@@ -25,6 +28,8 @@ __init__.py	la_parra/design/doctype/web_form_field_advanced/__init__.py	1;"	kind
 __init__.py	la_parra/la_parra/__init__.py	1;"	kind:file	line:1
 __init__.py	la_parra/la_parra/doctype/__init__.py	1;"	kind:file	line:1
 __init__.py	la_parra/la_parra/doctype/control_de_carros/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/la_parra/doctype/ingredientes/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/la_parra/doctype/masa_ingredientes/__init__.py	1;"	kind:file	line:1
 __init__.py	la_parra/la_parra/doctype/masas/__init__.py	1;"	kind:file	line:1
 __init__.py	la_parra/la_parra/doctype/obradores/__init__.py	1;"	kind:file	line:1
 __init__.py	la_parra/la_parra/doctype/panes/__init__.py	1;"	kind:file	line:1
@@ -79,9 +84,11 @@ get_web_form_list	la_parra/design/doctype/web_form_advanced/web_form_advanced.py
 has_web_form_permission	la_parra/design/doctype/web_form_advanced/web_form_advanced.py	/^def has_web_form_permission(doctype, name, ptype='read'):$/;"	kind:function	line:405
 hooks.py	la_parra/hooks.py	1;"	kind:file	line:1
 include_package_data	setup.py	/^	include_package_data=True,$/;"	kind:variable	line:23
+ingredientes.py	la_parra/la_parra/doctype/ingredientes/ingredientes.py	1;"	kind:file	line:1
 install_requires	setup.py	/^	install_requires=[str(ir.req) for ir in requirements],$/;"	kind:variable	line:24
 load_document	la_parra/design/doctype/web_form_advanced/web_form_advanced.py	/^	def load_document(self, context):$/;"	kind:member	line:169
 make_route_string	la_parra/design/doctype/web_form_advanced/web_form_advanced.py	/^def make_route_string(parameters):$/;"	kind:function	line:438
+masa_ingredientes.py	la_parra/la_parra/doctype/masa_ingredientes/masa_ingredientes.py	1;"	kind:file	line:1
 masas.py	la_parra/la_parra/doctype/masas/masas.py	1;"	kind:file	line:1
 max_communications_per_hour	la_parra/www/contact.py	/^max_communications_per_hour = 1000$/;"	kind:variable	line:28
 name	setup.py	/^	name='la_parra',$/;"	kind:variable	line:16
@@ -103,6 +110,7 @@ set_web_form_module	la_parra/design/doctype/web_form_advanced/web_form_advanced.
 setup.py	setup.py	1;"	kind:file	line:1
 template	la_parra/design/doctype/web_form_advanced/web_form_advanced.py	/^		template = "templates\/generators\/web_form_advanced.html",$/;"	kind:variable	line:19
 test_control_de_carros.py	la_parra/la_parra/doctype/control_de_carros/test_control_de_carros.py	1;"	kind:file	line:1
+test_ingredientes.py	la_parra/la_parra/doctype/ingredientes/test_ingredientes.py	1;"	kind:file	line:1
 test_masas.py	la_parra/la_parra/doctype/masas/test_masas.py	1;"	kind:file	line:1
 test_obradores.py	la_parra/la_parra/doctype/obradores/test_obradores.py	1;"	kind:file	line:1
 test_panes.py	la_parra/la_parra/doctype/panes/test_panes.py	1;"	kind:file	line:1
@@ -119,4 +127,5 @@ web_form_advanced.py	la_parra/design/doctype/web_form_advanced/web_form_advanced
 web_form_field_advanced.py	la_parra/design/doctype/web_form_field_advanced/web_form_field_advanced.py	1;"	kind:file	line:1
 web_include_css	la_parra/hooks.py	/^web_include_css = "\/assets\/css\/style-front.css"$/;"	kind:variable	line:22
 website	la_parra/design/doctype/web_form_advanced/web_form_advanced.py	/^	website = frappe._dict($/;"	kind:variable	line:18
+website_generators	la_parra/hooks.py	/^website_generators = ["Web Form Advanced"]$/;"	kind:variable	line:43
 zip_safe	setup.py	/^	zip_safe=False,$/;"	kind:variable	line:22

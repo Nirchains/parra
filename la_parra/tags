@@ -1,0 +1,126 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ControldeCarros	la_parra/doctype/control_de_carros/control_de_carros.py	/^class ControldeCarros(Document):$/;"	kind:class	line:9
+Ingredientes	la_parra/doctype/ingredientes/ingredientes.py	/^class Ingredientes(Document):$/;"	kind:class	line:9
+MasaIngredientes	la_parra/doctype/masa_ingredientes/masa_ingredientes.py	/^class MasaIngredientes(Document):$/;"	kind:class	line:9
+Masas	la_parra/doctype/masas/masas.py	/^class Masas(Document):$/;"	kind:class	line:9
+Obradores	la_parra/doctype/obradores/obradores.py	/^class Obradores(Document):$/;"	kind:class	line:9
+Panes	la_parra/doctype/panes/panes.py	/^class Panes(Document):$/;"	kind:class	line:9
+SalasdeFermentacion	la_parra/doctype/salas_de_fermentacion/salas_de_fermentacion.py	/^class SalasdeFermentacion(Document):$/;"	kind:class	line:9
+TestControldeCarros	la_parra/doctype/control_de_carros/test_control_de_carros.py	/^class TestControldeCarros(unittest.TestCase):$/;"	kind:class	line:11
+TestIngredientes	la_parra/doctype/ingredientes/test_ingredientes.py	/^class TestIngredientes(unittest.TestCase):$/;"	kind:class	line:11
+TestMasas	la_parra/doctype/masas/test_masas.py	/^class TestMasas(unittest.TestCase):$/;"	kind:class	line:11
+TestObradores	la_parra/doctype/obradores/test_obradores.py	/^class TestObradores(unittest.TestCase):$/;"	kind:class	line:11
+TestPanes	la_parra/doctype/panes/test_panes.py	/^class TestPanes(unittest.TestCase):$/;"	kind:class	line:11
+TestSalasdeFermentacion	la_parra/doctype/salas_de_fermentacion/test_salas_de_fermentacion.py	/^class TestSalasdeFermentacion(unittest.TestCase):$/;"	kind:class	line:11
+WebFormAdvanced	design/doctype/web_form_advanced/web_form_advanced.py	/^class WebFormAdvanced(WebsiteGenerator):$/;"	kind:class	line:17
+WebFormFieldAdvanced	design/doctype/web_form_field_advanced/web_form_field_advanced.py	/^class WebFormFieldAdvanced(Document):$/;"	kind:class	line:9
+__init__.py	__init__.py	1;"	kind:file	line:1
+__init__.py	config/__init__.py	1;"	kind:file	line:1
+__init__.py	design/__init__.py	1;"	kind:file	line:1
+__init__.py	design/doctype/__init__.py	1;"	kind:file	line:1
+__init__.py	design/doctype/web_form_advanced/__init__.py	1;"	kind:file	line:1
+__init__.py	design/doctype/web_form_field_advanced/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/doctype/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/doctype/control_de_carros/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/doctype/ingredientes/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/doctype/masa_ingredientes/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/doctype/masas/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/doctype/obradores/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/doctype/panes/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/doctype/salas_de_fermentacion/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/web_form/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/web_form/entrada_fermentacion_prueba/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/web_form/prueba/__init__.py	1;"	kind:file	line:1
+__init__.py	templates/__init__.py	1;"	kind:file	line:1
+__init__.py	templates/generators/__init__.py	1;"	kind:file	line:1
+__init__.py	templates/pages/__init__.py	1;"	kind:file	line:1
+__init__.py	www/__init__.py	1;"	kind:file	line:1
+__version__	__init__.py	/^__version__ = '0.0.1'$/;"	kind:variable	line:4
+accept	design/doctype/web_form_advanced/web_form_advanced.py	/^def accept(web_form_advanced, data):$/;"	kind:function	line:318
+add_column	design/doctype/web_form_advanced/web_form_advanced.py	/^		def add_column(df=None):$/;"	kind:function	line:253
+add_custom_context_and_script	design/doctype/web_form_advanced/web_form_advanced.py	/^	def add_custom_context_and_script(self, context):$/;"	kind:member	line:219
+add_page	design/doctype/web_form_advanced/web_form_advanced.py	/^		def add_page(df=None):$/;"	kind:function	line:237
+add_section	design/doctype/web_form_advanced/web_form_advanced.py	/^		def add_section(df=None):$/;"	kind:function	line:245
+app_color	hooks.py	/^app_color = "grey"$/;"	kind:variable	line:10
+app_description	hooks.py	/^app_description = "Informatización de controles de producción"$/;"	kind:variable	line:8
+app_email	hooks.py	/^app_email = "pedro@hispalisdigital.com"$/;"	kind:variable	line:11
+app_icon	hooks.py	/^app_icon = "octicon octicon-file-directory"$/;"	kind:variable	line:9
+app_include_css	hooks.py	/^app_include_css = "\/assets\/css\/style-desk.css"$/;"	kind:variable	line:18
+app_license	hooks.py	/^app_license = "MIT"$/;"	kind:variable	line:12
+app_name	hooks.py	/^app_name = "la_parra"$/;"	kind:variable	line:5
+app_publisher	hooks.py	/^app_publisher = "ADH Ingeniería y Formación - Híspalis Digital"$/;"	kind:variable	line:7
+app_title	hooks.py	/^app_title = "La Parra"$/;"	kind:variable	line:6
+build_as_list	design/doctype/web_form_advanced/web_form_advanced.py	/^	def build_as_list(self, context):$/;"	kind:member	line:187
+check_webform_perm	design/doctype/web_form_advanced/web_form_advanced.py	/^def check_webform_perm(doctype, name):$/;"	kind:function	line:423
+condition_field	design/doctype/web_form_advanced/web_form_advanced.py	/^		condition_field = "published",$/;"	kind:variable	line:20
+contact.py	www/contact.py	1;"	kind:file	line:1
+control_de_carros.py	la_parra/doctype/control_de_carros/control_de_carros.py	1;"	kind:file	line:1
+delete	design/doctype/web_form_advanced/web_form_advanced.py	/^def delete(web_form_advanced, name):$/;"	kind:function	line:396
+desktop.py	config/desktop.py	1;"	kind:file	line:1
+docs.py	config/docs.py	1;"	kind:file	line:1
+entrada_fermentacion.py	www/entrada_fermentacion.py	1;"	kind:file	line:1
+entrada_fermentacion_prueba.py	la_parra/web_form/entrada_fermentacion_prueba/entrada_fermentacion_prueba.py	1;"	kind:file	line:1
+get_context	config/docs.py	/^def get_context(context):$/;"	kind:function	line:10
+get_context	design/doctype/web_form_advanced/web_form_advanced.py	/^	def get_context(self, context):$/;"	kind:member	line:108
+get_context	la_parra/web_form/entrada_fermentacion_prueba/entrada_fermentacion_prueba.py	/^def get_context(context):$/;"	kind:function	line:5
+get_context	la_parra/web_form/prueba/prueba.py	/^def get_context(context):$/;"	kind:function	line:5
+get_context	www/contact.py	/^def get_context(context):$/;"	kind:function	line:9
+get_context	www/entrada_fermentacion.py	/^def get_context(context):$/;"	kind:function	line:8
+get_context	www/login.py	/^def get_context(context):$/;"	kind:function	line:15
+get_data	config/desktop.py	/^def get_data():$/;"	kind:function	line:5
+get_layout	design/doctype/web_form_advanced/web_form_advanced.py	/^	def get_layout(self):$/;"	kind:member	line:235
+get_parents	design/doctype/web_form_advanced/web_form_advanced.py	/^	def get_parents(self, context):$/;"	kind:member	line:288
+get_web_form_list	design/doctype/web_form_advanced/web_form_advanced.py	/^def get_web_form_list(doctype, txt, filters, limit_start, limit_page_length=20):$/;"	kind:function	line:429
+has_web_form_permission	design/doctype/web_form_advanced/web_form_advanced.py	/^def has_web_form_permission(doctype, name, ptype='read'):$/;"	kind:function	line:405
+hooks.py	hooks.py	1;"	kind:file	line:1
+ingredientes.py	la_parra/doctype/ingredientes/ingredientes.py	1;"	kind:file	line:1
+load_document	design/doctype/web_form_advanced/web_form_advanced.py	/^	def load_document(self, context):$/;"	kind:member	line:169
+login.py	www/login.py	1;"	kind:file	line:1
+login_oauth_user	www/login.py	/^def login_oauth_user(data=None, provider=None, state=None, email_id=None, key=None, generate_login_token=False):$/;"	kind:function	line:53
+login_via_facebook	www/login.py	/^def login_via_facebook(code, state):$/;"	kind:function	line:45
+login_via_frappe	www/login.py	/^def login_via_frappe(code, state):$/;"	kind:function	line:49
+login_via_github	www/login.py	/^def login_via_github(code, state):$/;"	kind:function	line:41
+login_via_google	www/login.py	/^def login_via_google(code, state):$/;"	kind:function	line:37
+login_via_token	www/login.py	/^def login_via_token(login_token):$/;"	kind:function	line:61
+make_route_string	design/doctype/web_form_advanced/web_form_advanced.py	/^def make_route_string(parameters):$/;"	kind:function	line:438
+masa_ingredientes.py	la_parra/doctype/masa_ingredientes/masa_ingredientes.py	1;"	kind:file	line:1
+masas.py	la_parra/doctype/masas/masas.py	1;"	kind:file	line:1
+max_communications_per_hour	www/contact.py	/^max_communications_per_hour = 1000$/;"	kind:variable	line:28
+no_cache	design/doctype/web_form_advanced/web_form_advanced.py	/^		no_cache = 1$/;"	kind:variable	line:22
+no_cache	www/entrada_fermentacion.py	/^no_cache = 1$/;"	kind:variable	line:5
+no_cache	www/login.py	/^no_cache = True$/;"	kind:variable	line:13
+no_sitemap	www/entrada_fermentacion.py	/^no_sitemap = 1$/;"	kind:variable	line:6
+obradores.py	la_parra/doctype/obradores/obradores.py	1;"	kind:file	line:1
+on_update	design/doctype/web_form_advanced/web_form_advanced.py	/^	def on_update(self):$/;"	kind:member	line:81
+onload	design/doctype/web_form_advanced/web_form_advanced.py	/^	def onload(self):$/;"	kind:member	line:25
+page_title_field	design/doctype/web_form_advanced/web_form_advanced.py	/^		page_title_field = "title",$/;"	kind:variable	line:21
+panes.py	la_parra/doctype/panes/panes.py	1;"	kind:file	line:1
+prueba.py	la_parra/web_form/prueba/prueba.py	1;"	kind:file	line:1
+reset_field_parent	design/doctype/web_form_advanced/web_form_advanced.py	/^	def reset_field_parent(self):$/;"	kind:member	line:56
+salas_de_fermentacion.py	la_parra/doctype/salas_de_fermentacion/salas_de_fermentacion.py	1;"	kind:file	line:1
+send_message	www/contact.py	/^def send_message(subject="Website Query", message="", sender=""):$/;"	kind:function	line:31
+set_web_form_module	design/doctype/web_form_advanced/web_form_advanced.py	/^	def set_web_form_module(self):$/;"	kind:member	line:298
+template	design/doctype/web_form_advanced/web_form_advanced.py	/^		template = "templates\/generators\/web_form_advanced.html",$/;"	kind:variable	line:19
+test_control_de_carros.py	la_parra/doctype/control_de_carros/test_control_de_carros.py	1;"	kind:file	line:1
+test_ingredientes.py	la_parra/doctype/ingredientes/test_ingredientes.py	1;"	kind:file	line:1
+test_masas.py	la_parra/doctype/masas/test_masas.py	1;"	kind:file	line:1
+test_obradores.py	la_parra/doctype/obradores/test_obradores.py	1;"	kind:file	line:1
+test_panes.py	la_parra/doctype/panes/test_panes.py	1;"	kind:file	line:1
+test_salas_de_fermentacion.py	la_parra/doctype/salas_de_fermentacion/test_salas_de_fermentacion.py	1;"	kind:file	line:1
+update_list_context	design/doctype/web_form_advanced/web_form_advanced.py	/^	def update_list_context(self, context):$/;"	kind:member	line:214
+update_params_from_form_dict	design/doctype/web_form_advanced/web_form_advanced.py	/^	def update_params_from_form_dict(self, context):$/;"	kind:member	line:201
+use_meta_fields	design/doctype/web_form_advanced/web_form_advanced.py	/^	def use_meta_fields(self):$/;"	kind:member	line:61
+validate	design/doctype/web_form_advanced/web_form_advanced.py	/^	def validate(self):$/;"	kind:member	line:30
+validate_fields	design/doctype/web_form_advanced/web_form_advanced.py	/^	def validate_fields(self):$/;"	kind:member	line:43
+validate_mandatory	design/doctype/web_form_advanced/web_form_advanced.py	/^	def validate_mandatory(self, doc):$/;"	kind:member	line:305
+web_form_advanced.py	design/doctype/web_form_advanced/web_form_advanced.py	1;"	kind:file	line:1
+web_form_field_advanced.py	design/doctype/web_form_field_advanced/web_form_field_advanced.py	1;"	kind:file	line:1
+web_include_css	hooks.py	/^web_include_css = "\/assets\/css\/style-front.css"$/;"	kind:variable	line:22
+website	design/doctype/web_form_advanced/web_form_advanced.py	/^	website = frappe._dict($/;"	kind:variable	line:18
+website_generators	hooks.py	/^website_generators = ["Web Form Advanced"]$/;"	kind:variable	line:43

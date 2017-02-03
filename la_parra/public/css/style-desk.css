@@ -1,0 +1,17 @@
+.layout-main-section {
+  border: 1px solid #CCCCCC;
+}
+.page-head {
+  border-bottom: 1px solid #CCCCCC;
+}
+.timeline-head {
+  border: 1px solid #CCCCCC;
+}
+.control-label,
+.grid-heading-row {
+  color: #555555;
+  font-size: 13px;
+}
+.form-control {
+  border: 1px solid #AAAAAA;
+}
