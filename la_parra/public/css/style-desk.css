@@ -15,3 +15,6 @@
 .form-control {
   border: 1px solid #AAAAAA;
 }
+.app-icon[data-name="Explore"] {
+  display: none;
+}

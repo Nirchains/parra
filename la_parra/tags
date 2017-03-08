@@ -17,6 +17,7 @@ TestMasas	la_parra/doctype/masas/test_masas.py	/^class TestMasas(unittest.TestCa
 TestObradores	la_parra/doctype/obradores/test_obradores.py	/^class TestObradores(unittest.TestCase):$/;"	kind:class	line:11
 TestPanes	la_parra/doctype/panes/test_panes.py	/^class TestPanes(unittest.TestCase):$/;"	kind:class	line:11
 TestSalasdeFermentacion	la_parra/doctype/salas_de_fermentacion/test_salas_de_fermentacion.py	/^class TestSalasdeFermentacion(unittest.TestCase):$/;"	kind:class	line:11
+TestWebFormAdvanced	design/doctype/web_form_advanced/test_web_form_advanced.py	/^class TestWebFormAdvanced(unittest.TestCase):$/;"	kind:class	line:11
 WebFormAdvanced	design/doctype/web_form_advanced/web_form_advanced.py	/^class WebFormAdvanced(WebsiteGenerator):$/;"	kind:class	line:17
 WebFormFieldAdvanced	design/doctype/web_form_field_advanced/web_form_field_advanced.py	/^class WebFormFieldAdvanced(Document):$/;"	kind:class	line:9
 __init__.py	__init__.py	1;"	kind:file	line:1
@@ -35,12 +36,13 @@ __init__.py	la_parra/doctype/obradores/__init__.py	1;"	kind:file	line:1
 __init__.py	la_parra/doctype/panes/__init__.py	1;"	kind:file	line:1
 __init__.py	la_parra/doctype/salas_de_fermentacion/__init__.py	1;"	kind:file	line:1
 __init__.py	la_parra/web_form/__init__.py	1;"	kind:file	line:1
-__init__.py	la_parra/web_form/entrada_fermentacion_prueba/__init__.py	1;"	kind:file	line:1
-__init__.py	la_parra/web_form/prueba/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/web_form_advanced/__init__.py	1;"	kind:file	line:1
+__init__.py	la_parra/web_form_advanced/prueba_1/__init__.py	1;"	kind:file	line:1
 __init__.py	templates/__init__.py	1;"	kind:file	line:1
 __init__.py	templates/generators/__init__.py	1;"	kind:file	line:1
 __init__.py	templates/pages/__init__.py	1;"	kind:file	line:1
 __init__.py	www/__init__.py	1;"	kind:file	line:1
+__init__.py	www/js/__init__.py	1;"	kind:file	line:1
 __version__	__init__.py	/^__version__ = '0.0.1'$/;"	kind:variable	line:4
 accept	design/doctype/web_form_advanced/web_form_advanced.py	/^def accept(web_form_advanced, data):$/;"	kind:function	line:318
 add_column	design/doctype/web_form_advanced/web_form_advanced.py	/^		def add_column(df=None):$/;"	kind:function	line:253
@@ -65,11 +67,9 @@ delete	design/doctype/web_form_advanced/web_form_advanced.py	/^def delete(web_fo
 desktop.py	config/desktop.py	1;"	kind:file	line:1
 docs.py	config/docs.py	1;"	kind:file	line:1
 entrada_fermentacion.py	www/entrada_fermentacion.py	1;"	kind:file	line:1
-entrada_fermentacion_prueba.py	la_parra/web_form/entrada_fermentacion_prueba/entrada_fermentacion_prueba.py	1;"	kind:file	line:1
 get_context	config/docs.py	/^def get_context(context):$/;"	kind:function	line:10
 get_context	design/doctype/web_form_advanced/web_form_advanced.py	/^	def get_context(self, context):$/;"	kind:member	line:108
-get_context	la_parra/web_form/entrada_fermentacion_prueba/entrada_fermentacion_prueba.py	/^def get_context(context):$/;"	kind:function	line:5
-get_context	la_parra/web_form/prueba/prueba.py	/^def get_context(context):$/;"	kind:function	line:5
+get_context	la_parra/web_form_advanced/prueba_1/prueba_1.py	/^def get_context(context):$/;"	kind:function	line:5
 get_context	www/contact.py	/^def get_context(context):$/;"	kind:function	line:9
 get_context	www/entrada_fermentacion.py	/^def get_context(context):$/;"	kind:function	line:8
 get_context	www/login.py	/^def get_context(context):$/;"	kind:function	line:15
@@ -101,7 +101,7 @@ on_update	design/doctype/web_form_advanced/web_form_advanced.py	/^	def on_update
 onload	design/doctype/web_form_advanced/web_form_advanced.py	/^	def onload(self):$/;"	kind:member	line:25
 page_title_field	design/doctype/web_form_advanced/web_form_advanced.py	/^		page_title_field = "title",$/;"	kind:variable	line:21
 panes.py	la_parra/doctype/panes/panes.py	1;"	kind:file	line:1
-prueba.py	la_parra/web_form/prueba/prueba.py	1;"	kind:file	line:1
+prueba_1.py	la_parra/web_form_advanced/prueba_1/prueba_1.py	1;"	kind:file	line:1
 reset_field_parent	design/doctype/web_form_advanced/web_form_advanced.py	/^	def reset_field_parent(self):$/;"	kind:member	line:56
 salas_de_fermentacion.py	la_parra/doctype/salas_de_fermentacion/salas_de_fermentacion.py	1;"	kind:file	line:1
 send_message	www/contact.py	/^def send_message(subject="Website Query", message="", sender=""):$/;"	kind:function	line:31
@@ -113,6 +113,7 @@ test_masas.py	la_parra/doctype/masas/test_masas.py	1;"	kind:file	line:1
 test_obradores.py	la_parra/doctype/obradores/test_obradores.py	1;"	kind:file	line:1
 test_panes.py	la_parra/doctype/panes/test_panes.py	1;"	kind:file	line:1
 test_salas_de_fermentacion.py	la_parra/doctype/salas_de_fermentacion/test_salas_de_fermentacion.py	1;"	kind:file	line:1
+test_web_form_advanced.py	design/doctype/web_form_advanced/test_web_form_advanced.py	1;"	kind:file	line:1
 update_list_context	design/doctype/web_form_advanced/web_form_advanced.py	/^	def update_list_context(self, context):$/;"	kind:member	line:214
 update_params_from_form_dict	design/doctype/web_form_advanced/web_form_advanced.py	/^	def update_params_from_form_dict(self, context):$/;"	kind:member	line:201
 use_meta_fields	design/doctype/web_form_advanced/web_form_advanced.py	/^	def use_meta_fields(self):$/;"	kind:member	line:61
