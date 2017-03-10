@@ -15,6 +15,8 @@
 .form-control {
   border: 1px solid #AAAAAA;
 }
-.app-icon[data-name="Explore"] {
-  display: none;
+.case-wrapper[data-name="Explore"],
+.module-link[data-name="Website"],
+.dropdown-help {
+  display: none !important;
 }
