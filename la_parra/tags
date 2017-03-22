@@ -72,7 +72,6 @@ get_context	design/doctype/web_form_advanced/web_form_advanced.py	/^	def get_con
 get_context	la_parra/web_form_advanced/prueba_1/prueba_1.py	/^def get_context(context):$/;"	kind:function	line:5
 get_context	www/contact.py	/^def get_context(context):$/;"	kind:function	line:9
 get_context	www/entrada_fermentacion.py	/^def get_context(context):$/;"	kind:function	line:8
-get_context	www/login.py	/^def get_context(context):$/;"	kind:function	line:15
 get_data	config/desktop.py	/^def get_data():$/;"	kind:function	line:5
 get_layout	design/doctype/web_form_advanced/web_form_advanced.py	/^	def get_layout(self):$/;"	kind:member	line:235
 get_parents	design/doctype/web_form_advanced/web_form_advanced.py	/^	def get_parents(self, context):$/;"	kind:member	line:288
@@ -81,20 +80,12 @@ has_web_form_permission	design/doctype/web_form_advanced/web_form_advanced.py	/^
 hooks.py	hooks.py	1;"	kind:file	line:1
 ingredientes.py	la_parra/doctype/ingredientes/ingredientes.py	1;"	kind:file	line:1
 load_document	design/doctype/web_form_advanced/web_form_advanced.py	/^	def load_document(self, context):$/;"	kind:member	line:169
-login.py	www/login.py	1;"	kind:file	line:1
-login_oauth_user	www/login.py	/^def login_oauth_user(data=None, provider=None, state=None, email_id=None, key=None, generate_login_token=False):$/;"	kind:function	line:53
-login_via_facebook	www/login.py	/^def login_via_facebook(code, state):$/;"	kind:function	line:45
-login_via_frappe	www/login.py	/^def login_via_frappe(code, state):$/;"	kind:function	line:49
-login_via_github	www/login.py	/^def login_via_github(code, state):$/;"	kind:function	line:41
-login_via_google	www/login.py	/^def login_via_google(code, state):$/;"	kind:function	line:37
-login_via_token	www/login.py	/^def login_via_token(login_token):$/;"	kind:function	line:61
 make_route_string	design/doctype/web_form_advanced/web_form_advanced.py	/^def make_route_string(parameters):$/;"	kind:function	line:438
 masa_ingredientes.py	la_parra/doctype/masa_ingredientes/masa_ingredientes.py	1;"	kind:file	line:1
 masas.py	la_parra/doctype/masas/masas.py	1;"	kind:file	line:1
 max_communications_per_hour	www/contact.py	/^max_communications_per_hour = 1000$/;"	kind:variable	line:28
 no_cache	design/doctype/web_form_advanced/web_form_advanced.py	/^		no_cache = 1$/;"	kind:variable	line:22
 no_cache	www/entrada_fermentacion.py	/^no_cache = 1$/;"	kind:variable	line:5
-no_cache	www/login.py	/^no_cache = True$/;"	kind:variable	line:13
 no_sitemap	www/entrada_fermentacion.py	/^no_sitemap = 1$/;"	kind:variable	line:6
 obradores.py	la_parra/doctype/obradores/obradores.py	1;"	kind:file	line:1
 on_update	design/doctype/web_form_advanced/web_form_advanced.py	/^	def on_update(self):$/;"	kind:member	line:81

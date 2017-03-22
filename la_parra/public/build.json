@@ -5,6 +5,9 @@
     "css/style-desk.css": [
         "public/css/style-desk.css"
     ],
+    "css/material.css": [
+        "public/css/material.css"
+    ],
     "css/style-front.css": [
         "public/css/style-front.css"
     ],

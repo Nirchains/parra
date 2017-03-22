@@ -1,4 +1,4 @@
 apps/frappe/frappe/public/js/frappe/ui/toolbar/navbar.html +28,Home,Inicio
 apps/frappe/frappe/www/login.html +68,Dont have an account?,¿No tiene cuenta?
-apps/frappe/frappe/www/login.html +28,Sign In,Acceder
+apps/frappe/frappe/www/login.html +25,Sign In,Acceder
 DocType: Web Form Advanced,Web Form Advanced,Formulario web avanzado
