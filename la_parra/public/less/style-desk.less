@@ -1,7 +1,12 @@
+@import "mixins.less";
 @font-grey-medium: #555555;
 @font-size-medium: 13px;
 @input-border-medium: 1px solid #AAAAAA;
 @layout-border-medium: 1px solid #CCCCCC;
+
+#page-desktop {
+  background-color: #666666 !important;
+}
 
 .layout-main-section {
     border: @layout-border-medium;
@@ -39,4 +44,24 @@ textarea.form-control {
   border-top: 1px solid #ddd;
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
+}
+
+/*Estilos Home*/
+h6.uppercase, .h6.uppercase {
+  font-size: 14px;
+}
+
+.app-icon {
+  border: 2px solid rgba(255,255,255, 0.5);
+  &:hover {
+      box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.7);
+      .transition(all 0.2s ease 0s);
+  }
+}
+.case-wrapper[data-name="Explore"] {
+  display: none !important;
+}
+
+.btn-default {
+  .box-shadow(0px, 1px, 2px, rgba(0, 0, 0, 0.4));
 }

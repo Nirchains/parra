@@ -10423,6 +10423,12 @@ fieldset[disabled] .form-control {
   border-bottom: none;
 }
 
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus
+.navbar-default .navbar-brand:hover {
+  color: #ded5c3;
+}
+
 
 /*
  *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/sidebar.css
