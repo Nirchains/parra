@@ -1,3 +1,8 @@
 .navbar-brand {
   height: 70px;
 }
+.btn-login,
+.btn-signup,
+.btn-forgot {
+  background: #9e1520;
+}

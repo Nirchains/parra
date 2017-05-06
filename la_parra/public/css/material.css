@@ -735,7 +735,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 }
 
 .ui-slider-horizontal { height: .8em; }
-.ui-slider-horizontal .ui-slider-handle {top: -.3em;margin-left: -.6em;background: #7574ff;border: none;border-radius: 10px;}
+.ui-slider-horizontal .ui-slider-handle {top: -.3em;margin-left: -.6em;background: #9e1520;border: none;border-radius: 10px;}
 .ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
 .ui-slider-horizontal .ui-slider-range-min { left: 0; }
 .ui-slider-horizontal .ui-slider-range-max { right: 0; }
@@ -757,7 +757,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
  * http://jqueryui.com/datepicker/
  */
 .ui-datepicker { width: 17em; padding: .2em .2em 0; display: none; }
-.ui-datepicker .ui-datepicker-header {position:relative;padding:.2em 0;border:0px;font-weight: bold;width: 100%;padding: 4px 0;background-color: #7574ff;color: #808080;}
+.ui-datepicker .ui-datepicker-header {position:relative;padding:.2em 0;border:0px;font-weight: bold;width: 100%;padding: 4px 0;background-color: #9e1520;color: #808080;}
 .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {position:absolute;top: 2px;width: 1.8em;height: 1.8em;}
 
 .ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover { /*top: 1px;*/ }
@@ -1959,7 +1959,7 @@ th {
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background: #eeeeee;
+  background: #f9f2e5;
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
@@ -3443,7 +3443,7 @@ output {
 }
 .form-control:focus {
   outline: 0;
-  border-bottom: 2px solid #7574ff;
+  border-bottom: 2px solid #9e1520;
   box-shadow: none;
   border-top: none;
   border-left: none;
@@ -4340,7 +4340,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:focus {
   color: #ffffff;
   text-decoration: none;
-  background-color: #7574ff;
+  background-color: #9e1520;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -4868,7 +4868,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: inherit;
-  background-color: #7574ff;
+  background-color: #9e1520;
   color: white;
 }
 .nav-stacked > li {
@@ -5268,7 +5268,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: rgb(117, 116, 255);
+  background-color: #9e1520;
 }
 .navbar-default .navbar-brand {
   color: #6c7680;
@@ -7479,7 +7479,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: blink;
-  color: #7574ff;
+  color: #9e1520;
 }
 .navbar a:hover,
 .navbar a:focus,
@@ -9801,7 +9801,7 @@ fieldset[disabled] .form-control {
 .ui-autocomplete .ui-state-focus,
 .ui-datepicker .ui-state-hover,
 .ui-autocomplete .ui-state-hover {
-  background-color: #7574ff !important;
+  background-color: #9e1520 !important;
   color: #ffffff !important;
   text-shadow: none !important;
 }
@@ -10337,7 +10337,7 @@ fieldset[disabled] .form-control {
 }
 #navbar-search {
   width: 300px;
-  background-color: rgb(117, 116, 255);
+  background-color: #9e1520;
   BORDER-RADIUS: 0PX;
   color: white;
   border-bottom-color: white;
@@ -10483,7 +10483,7 @@ body[data-route^="Module"] .main-menu .form-sidebar {
 .layout-side-section .sidebar-menu > li > a:focus,
 .layout-side-section .sidebar-menu > li > a:active {
   text-decoration: blink;
-  color: #7574ff;
+  color: #9e1520;
 }
 .sidebar-menu .badge {
   position: absolute;
@@ -10746,7 +10746,7 @@ a.close:focus {
  */
 .page-container {
   margin-top: 40px;
-  BACKGROUND: #eeeeee;
+  background: #f9f2e5;
 }
 .page-head {
   border-bottom: 1px solid #d1d8dd;
@@ -10756,7 +10756,7 @@ a.close:focus {
   right: 0;
   top: 41px;
   margin: auto;
-  background-color: #eee;
+  background-color: #e3dac9;
   z-index: 101;
 }
 .sub-heading {
@@ -10808,7 +10808,7 @@ a.close:focus {
 }
 .editable-title .title-text:hover {
   background-color: #eeeeee;
-  color: #7574ff;
+  color: #9e1520;
 }
 .page-actions {
   padding-top: 17px;
@@ -10939,7 +10939,7 @@ ul.tree-children {
  */
 body[data-route=""] .navbar-default,
 body[data-route="desktop"] .navbar-default {
-  background-color: rgb(117, 116, 255);
+  background-color: #9e1520;
   border-color: rgba(54, 65, 76, 0.1);
 }
 #page-desktop {
