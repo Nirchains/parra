@@ -1,0 +1,137 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-11 14:22:34.987829", 
+  "name": "193579881a", 
+  "source_name": "Sales Order", 
+  "target_name": "Albar\u00e1n"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-11 14:21:16.386100", 
+  "name": "0e15156043", 
+  "source_name": "Warehouses", 
+  "target_name": "Almacenes"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-11 14:21:16.391516", 
+  "name": "3a90161026", 
+  "source_name": "Barcode", 
+  "target_name": "C\u00f3digo de barras"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-11 14:22:07.433422", 
+  "name": "78068ca336", 
+  "source_name": "Quotation", 
+  "target_name": "Presupuesto"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-11 18:10:29.761759", 
+  "name": "111888ddac", 
+  "source_name": "Manufacturing", 
+  "target_name": "Producci\u00f3n"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-11 18:37:08.257152", 
+  "name": "569fc0ff8b", 
+  "source_name": "Images", 
+  "target_name": "Im\u00e1genes"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-11 18:59:46.814898", 
+  "name": "7886774d47", 
+  "source_name": "Move", 
+  "target_name": "Inventario"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-12 10:11:05.102858", 
+  "name": "4036501730", 
+  "source_name": "Spain", 
+  "target_name": "Espa\u00f1a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-12 10:17:40.030225", 
+  "name": "5f39083c53", 
+  "source_name": "Issue", 
+  "target_name": "Ticket"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-12 10:32:33.584744", 
+  "name": "6dbf3a3b80", 
+  "source_name": "DRAFT", 
+  "target_name": "BORRADOR"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-12 10:40:09.501372", 
+  "name": "9ed82ed76b", 
+  "source_name": "New Print Format Name", 
+  "target_name": "Nombre del formato de impresi\u00f3n"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-12 10:41:27.267373", 
+  "name": "a228cb9d99", 
+  "source_name": "Subscription", 
+  "target_name": "Suscripci\u00f3n"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-12 10:42:56.364166", 
+  "name": "9674f48542", 
+  "source_name": "Make", 
+  "target_name": "Crear"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-12 12:33:27.853454", 
+  "name": "bb7958c32e", 
+  "source_name": "Stock Summary", 
+  "target_name": "Resumen de Existencias"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "es", 
+  "modified": "2017-09-12 12:38:10.611561", 
+  "name": "28e3d9bcbb", 
+  "source_name": "Target Warehouse", 
+  "target_name": "Inventario Destino"
+ }
+]

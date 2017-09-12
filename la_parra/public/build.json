@@ -13,5 +13,15 @@
     ],
     "css/chosen.css": [
         "public/css/chosen.css"
+    ],
+    "js/custom.js": [
+        "public/js/fix.js",
+        "public/js/extra.js",
+        "public/js/custom.js"
+    ],
+    "js/templates.min.js": [
+        "public/js/list/list_item_main.html",
+        "public/js/list/list_item_row.html",
+        "public/js/list/list_item_subject.html"
     ]
 }

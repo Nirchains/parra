@@ -77,9 +77,21 @@ h6.uppercase,
   -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
+
 #page-desktop {
   background-color: #666666 !important;
 }
 html {
   background: #f9f2e5;
+}
+
+
+/*BUG pantalla anclada*/
+.grid-row-open .form-in-grid {
+  overflow-y: scroll;
+  position: fixed;
+  width: 90%;
+  height: 90%;
+  top: 7%;
+  left: 5%;
 }

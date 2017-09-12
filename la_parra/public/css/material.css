@@ -980,6 +980,12 @@ html {
     border-color: #7f8c9b;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #9e1520;
+    border-color: #aaaaaa;
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,

@@ -14,9 +14,15 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
+fixtures=['Custom Field', 'Property Setter','Print Format','Custom Script','Translation']
+
 # include js, css files in header of desk.html
 app_include_css = ["/assets/css/style-desk.css", "/assets/css/material.css"]
 # app_include_js = "/assets/la_parra/js/la_parra.js"
+app_include_js = [
+	"/assets/js/custom.js",
+	"/assets/js/templates.min.js"
+]
 
 # include js, css files in header of web template
 web_include_css = "/assets/css/style-front.css"
@@ -111,3 +117,6 @@ website_generators = ["Web Form Advanced"]
 # 	"frappe.desk.doctype.event.event.get_events": "la_parra.event.get_events"
 # }
 
+doctype_list_js = {
+	"Item": ["custom_script/item_list.js"]
+}
